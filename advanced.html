@@ -5,32 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    <form action="https://google.com/search" target="_blank">
-        <div class="input">
-            <label for="as_q" class="col-md-2">all these words:</label>
-            <input type="text"  name="as_q" id="as_q">
-        </div>
-        <div class="input">
-            <label for="as_epq" class="col-md-2">this exact word or phrase:</label>
-            <input type="text"  name="as_epq" id="as_epq">
-        </div>
-        <div class="input">
-            <label for="as_oq" class="col-md-2">any of these words:</label>
-            <input type="text"  name="as_oq" id="as_oq">
-        </div>
-        <div class="input">
-            <label for="as_eq" class="col-md-2">none of these words:</label>
-            <input type="text"  name="as_eq" id="as_eq">    
-        </div>
-        <div class="input">
-        <div class="input">
-            <div class="col-md-2 d-none"></div>
-            <input type="submit" value="Advanced Search" id="submit" class="col-md-2">
-        </div>
-        </div>
-    </form>
+    <div class="navbar">
+        <li><a href="index.html">Google</a></li>
+    </div>
+    <h1 class="h1-advanced">Advanced Search</h1>
+    <hr/>
+    <div class="bottom-wrapper">
+        <span class="find-pages">
+            Find pages with...
+        </span>
+        <form action="https://google.com/search" target="_blank">
+            <div class="input">
+                <label for="as_q" class="col-md-2">all these words:</label>
+                <input type="text"  name="as_q" id="as_q">
+            </div>
+            <div class="input">
+                <label for="as_epq" class="col-md-2">this exact word or phrase:</label>
+                <input type="text"  name="as_epq" id="as_epq">
+            </div>
+            <div class="input">
+                <label for="as_oq" class="col-md-2">any of these words:</label>
+                <input type="text"  name="as_oq" id="as_oq">
+            </div>
+            <div class="input">
+                <label for="as_eq" class="col-md-2">none of these words:</label>
+                <input type="text"  name="as_eq" id="as_eq">    
+            </div>
+            <div class="input">
+            <div class="btn-div">
+                <input type="submit" value="Advanced Search" class="btn adv-btn">
+            </div>
+        </form>
+    </div>
 </body>
 </html>

@@ -1,0 +1,96 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.logo , .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.rounded-input {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+}
+
+.btn {
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: black;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.h1-advanced {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px
+}
+
+.form-div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.adv-btn {
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+    font-weight: bold;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 425px;
+}
+
+.bottom-wrapper {
+    margin: 25px 35px;
+}
+
+.find-pages {
+    padding-bottom: 100px;
+}
